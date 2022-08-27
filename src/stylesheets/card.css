@@ -1,0 +1,14 @@
+.playing-card {
+    height: 200px;
+    width: 150px;
+}
+
+.playing-card:active {
+    transform: scale(1.05);
+}
+
+@media (min-width: 1000px){
+    .playing-card:hover {
+        transform: scale(1.05);
+    }
+}

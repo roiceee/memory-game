@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Memory-Game/static/css/main.7a1ca220.css",
-    "main.js": "/Memory-Game/static/js/main.006bb147.js",
+    "main.css": "/Memory-Game/static/css/main.afc50487.css",
+    "main.js": "/Memory-Game/static/js/main.9e2d81dc.js",
     "static/js/845.0efa10a0.chunk.js": "/Memory-Game/static/js/845.0efa10a0.chunk.js",
     "static/media/queen_of_clubs2.png": "/Memory-Game/static/media/queen_of_clubs2.ef480115313c1c393699.png",
     "static/media/king_of_hearts2.png": "/Memory-Game/static/media/king_of_hearts2.67c7a87603fdc5b5e2f7.png",
@@ -18,12 +18,12 @@
     "static/media/game-over.mp3": "/Memory-Game/static/media/game-over.7b134939934153701fac.mp3",
     "static/media/correct.mp3": "/Memory-Game/static/media/correct.2944938830ac5d97fe17.mp3",
     "index.html": "/Memory-Game/index.html",
-    "main.7a1ca220.css.map": "/Memory-Game/static/css/main.7a1ca220.css.map",
-    "main.006bb147.js.map": "/Memory-Game/static/js/main.006bb147.js.map",
+    "main.afc50487.css.map": "/Memory-Game/static/css/main.afc50487.css.map",
+    "main.9e2d81dc.js.map": "/Memory-Game/static/js/main.9e2d81dc.js.map",
     "845.0efa10a0.chunk.js.map": "/Memory-Game/static/js/845.0efa10a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a1ca220.css",
-    "static/js/main.006bb147.js"
+    "static/css/main.afc50487.css",
+    "static/js/main.9e2d81dc.js"
   ]
 }

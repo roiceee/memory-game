@@ -10,7 +10,15 @@ function Header() {
         once!
       </h6>
       <h6>
-        Message me the secret passphrase revealed once you win the game (❁´◡`❁)
+        <a
+          className="text-light"
+          target="_blank"
+          rel="noreferrer"
+          href="https://facebook.com/aldeza.johnroice/"
+        >
+          Message me
+        </a>{" "}
+        the secret passphrase which is revealed once you win the game (❁´◡`❁)
       </h6>
     </Row>
   );

@@ -71,7 +71,6 @@ function GameBoard() {
   useEffect(() => {
     generateCards();
     setScore(0);
-    console.log(level);
   }, [level]);
 
   useEffect(() => {
@@ -86,7 +85,7 @@ function GameBoard() {
       <Container className="mt-3">
         <Row>
           <Col>
-            <h5>Level: {level.id}</h5>
+            <h5>Level: {level.id}/{levelArr.length}</h5>
             <h6>
               Score: {score}/{level.length}
             </h6>
@@ -105,6 +104,7 @@ function GameBoard() {
         playerwon={playerWon.toString()}
         show={winModalShow}
         onHide={() => setWinModalShow(false)}
+        className="border-0"
       />
     </>
   );

@@ -3,7 +3,7 @@ import correctAudio from "../assets/audio/correct.mp3";
 import gameOverAudio from "../assets/audio/game-over.mp3";
 import useSound from "use-sound";
 
-function Card({ setScore, cardObject, setWinModalShow, playerWon, resetGame }) {
+function Card({ setScore, cardObject, setWinModalShow, playerWon, resetGame}) {
   const [playCorrect] = useSound(correctAudio);
   const [playWrong] = useSound(gameOverAudio);
 

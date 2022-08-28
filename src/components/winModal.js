@@ -4,7 +4,7 @@ import React from "react";
 
 function WinModal(props) {
   return (
-    <Modal {...props} size="lg" aria-labelledby="win modal" centered>
+    <Modal {...props} size="lg" aria-labelledby="win modal" centered  >
       <Modal.Header closeButton>
         <Modal.Title id="win modal">
           {props.playerwon === "true"

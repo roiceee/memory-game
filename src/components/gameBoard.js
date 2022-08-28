@@ -30,7 +30,7 @@ function GameBoard() {
       );
     });
     return cards;
-  }, [level]);
+  }, [level, playerWon]);
 
   const checkWin = useCallback(() => {
     if (levelIndex === levelArr.length - 1) {

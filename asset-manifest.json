@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Memory-Game/static/css/main.7a1ca220.css",
+    "main.js": "/Memory-Game/static/js/main.006bb147.js",
+    "static/js/845.0efa10a0.chunk.js": "/Memory-Game/static/js/845.0efa10a0.chunk.js",
+    "static/media/queen_of_clubs2.png": "/Memory-Game/static/media/queen_of_clubs2.ef480115313c1c393699.png",
+    "static/media/king_of_hearts2.png": "/Memory-Game/static/media/king_of_hearts2.67c7a87603fdc5b5e2f7.png",
+    "static/media/king_of_diamonds2.png": "/Memory-Game/static/media/king_of_diamonds2.87c79c7e6a6ad495db27.png",
+    "static/media/king_of_clubs2.png": "/Memory-Game/static/media/king_of_clubs2.b70624b5c06bb02b555d.png",
+    "static/media/jack_of_hearts2.png": "/Memory-Game/static/media/jack_of_hearts2.f623f209cee34f5f36ea.png",
+    "static/media/jack_of_spades2.png": "/Memory-Game/static/media/jack_of_spades2.3fa41aad1bac0646b475.png",
+    "static/media/queen_of_hearts2.png": "/Memory-Game/static/media/queen_of_hearts2.746a7ee8eaded6c7944b.png",
+    "static/media/jack_of_diamonds2.png": "/Memory-Game/static/media/jack_of_diamonds2.afe516e95a5f8a0fb455.png",
+    "static/media/jack_of_clubs2.png": "/Memory-Game/static/media/jack_of_clubs2.316b830335ec4d4b093d.png",
+    "static/media/queen_of_spades2.png": "/Memory-Game/static/media/queen_of_spades2.c9de6912454b7282e58b.png",
+    "static/media/king_of_spades2.png": "/Memory-Game/static/media/king_of_spades2.fda148e5425c266a3a81.png",
+    "static/media/queen_of_diamonds2.png": "/Memory-Game/static/media/queen_of_diamonds2.911390541adb6dfd350a.png",
+    "static/media/game-over.mp3": "/Memory-Game/static/media/game-over.7b134939934153701fac.mp3",
+    "static/media/correct.mp3": "/Memory-Game/static/media/correct.2944938830ac5d97fe17.mp3",
+    "index.html": "/Memory-Game/index.html",
+    "main.7a1ca220.css.map": "/Memory-Game/static/css/main.7a1ca220.css.map",
+    "main.006bb147.js.map": "/Memory-Game/static/js/main.006bb147.js.map",
+    "845.0efa10a0.chunk.js.map": "/Memory-Game/static/js/845.0efa10a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a1ca220.css",
+    "static/js/main.006bb147.js"
+  ]
+}

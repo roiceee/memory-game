@@ -25,8 +25,9 @@ function Card({ setScore, cardObject, setWinModalShow, playerWon, resetGame}) {
   };
 
   return (
-    <div className="playing-card mx-0 my-1 d-flex">
+    <div className="card-holder mx-0 my-1 d-flex">
       <img
+        className="playing-card"
         src={cardObject.src}
         onClick={() => checkCard(playCorrect, playWrong)}
       ></img>

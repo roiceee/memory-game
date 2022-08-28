@@ -62,6 +62,7 @@ function GameBoard() {
       increaseLevel();
     }
     shuffleArray(level.cards);
+
   }, [score]);
 
   useEffect(() => {

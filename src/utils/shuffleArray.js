@@ -1,5 +1,5 @@
 function shuffleArray(array) {
-  disappearEffect(300);
+  disappearEffect();
   for (var i = array.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
     var temp = array[i];
@@ -8,7 +8,7 @@ function shuffleArray(array) {
   }
 }
 
-function disappearEffect(duration) {
+function disappearEffect() {
   const cardDOMElements = document.querySelectorAll(".playing-card");
   cardDOMElements.forEach((card) => {
     card.style.display = "none";
@@ -17,7 +17,7 @@ function disappearEffect(duration) {
     cardDOMElements.forEach((card) => {
       card.style.display = "flex";
     });
-  }, duration);
+  }, 100);
 }
 
 export { shuffleArray as default, disappearEffect };

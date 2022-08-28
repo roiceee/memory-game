@@ -1,14 +1,14 @@
-.playing-card {
+.card-holder {
     height: 200px;
     width: 150px;
 }
 
-.playing-card:active {
+.card-holder:active {
     transform: scale(1.05);
 }
 
 @media (min-width: 1000px){
-    .playing-card:hover {
+    .card-holder:hover {
         transform: scale(1.05);
     }
 }

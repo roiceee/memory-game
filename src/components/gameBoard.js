@@ -14,28 +14,37 @@ function GameBoard() {
   const [level, setLevel] = useState(levelArr[levelIndex]);
   const [score, setScore] = useState(0);
   const [winModalShow, setWinModalShow] = useState(false);
+  const [playerWon, setPlayerWon] = useState(false);
 
   const generateCards = useCallback(() => {
     const cards = level.cards.map((card) => {
       return (
         <Card
           key={card.id}
-          imageSrc={card.src}
+          cardObject={card}
           setScore={setScore}
-          cardKey={card.id}
-          cardObject={level.cards[card.id]}
+          setWinModalShow={setWinModalShow}
+          playerWon={playerWon}
+          resetGame={resetGame}
         />
       );
     });
     return cards;
   }, [level]);
 
-  const increaseLevel = useCallback(() => {
+  const checkWin = useCallback(() => {
     if (levelIndex === levelArr.length - 1) {
-      console.log(levelArr.length - 1);
-      setWinModalShow(true);
+      setPlayerWon(true);
+      return true;
+    }
+    return false;
+  }, [levelIndex]);
+
+  const increaseLevel = useCallback(() => {
+    if (checkWin()) {
       return;
     }
+
     setLevelIndex((prevLevelIndex) => {
       return prevLevelIndex + 1;
     });
@@ -45,7 +54,8 @@ function GameBoard() {
     setLevelIndex(0);
     setScore(0);
     resetLevelArr();
-  }, [])
+    setPlayerWon(false);
+  }, []);
 
   useEffect(() => {
     if (score === level.length) {
@@ -61,27 +71,41 @@ function GameBoard() {
   useEffect(() => {
     generateCards();
     setScore(0);
+    console.log(level);
   }, [level]);
+
+  useEffect(() => {
+    if (!playerWon) {
+      return;
+    }
+    setWinModalShow(true);
+  }, [playerWon]);
 
   return (
     <>
       <Container className="mt-3">
         <Row>
           <Col>
-            <h5>Level: {level.id}</h5> 
+            <h5>Level: {level.id}</h5>
             <h6>
               Score: {score}/{level.length}
             </h6>
           </Col>
           <Col xs={7} md={10}>
-            <Button variant="danger" onClick={resetGame}>Reset</Button>
+            <Button variant="danger" onClick={resetGame}>
+              Reset
+            </Button>
           </Col>
         </Row>
         <Row className="mt-4 d-flex justify-content-center">
           {generateCards()}
         </Row>
       </Container>
-      <WinModal show={winModalShow} onHide={() => setWinModalShow(false)} />
+      <WinModal
+        playerwon={playerWon.toString()}
+        show={winModalShow}
+        onHide={() => setWinModalShow(false)}
+      />
     </>
   );
 }

@@ -145,8 +145,15 @@ const levelArr = [
             "src": jackOfSpades,
             "isClicked": false
         },]
-    },
-    
+    },   
 ]
 
-export default levelArr;
+function resetLevelArr() {
+    levelArr.forEach((level,index) => {
+        levelArr[index].cards.forEach((card, cardIndex) => {
+            levelArr[index].cards[cardIndex].isClicked = false;
+        })
+    })
+}
+
+export {levelArr as default, resetLevelArr};

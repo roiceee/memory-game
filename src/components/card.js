@@ -27,7 +27,7 @@ function Card({ setScore, cardObject, setWinModalShow, playerWon, resetGame}) {
   };
 
   return (
-    <div className="card-holder mx-0 my-1 d-flex">
+    <div className="card-holder mx-2 my-2 d-flex gx-2">
       <img
         className="playing-card"
         src={cardObject.src}

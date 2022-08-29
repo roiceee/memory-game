@@ -1,6 +1,6 @@
 .card-holder {
-    height: 200px;
-    width: 150px;
+    height: fit-content;
+    width: fit-content;
 }
 
 .card-holder:active {

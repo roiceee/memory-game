@@ -8,7 +8,7 @@ function WinModal(props) {
       <Modal.Header closeButton>
         <Modal.Title id="win modal">
           {props.playerwon === "true"
-            ? 'You Won! The passphrase is "san ka punta broom broom"'
+            ? 'You Won! The passphrase is "san ka punta to the moon"'
             : "You lose! Don't click cards more than once!"}
         </Modal.Title>
       </Modal.Header>

@@ -1,7 +1,7 @@
 {
   "name": "react-practice",
   "version": "0.1.0",
-  "homepage": "https://roiceee.github.io/Memory-Game",
+  "homepage": "https://roiceee.github.io/memory-game",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

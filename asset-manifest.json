@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Memory-Game/static/css/main.ccf97c94.css",
-    "main.js": "/Memory-Game/static/js/main.ff2a20b8.js",
-    "static/js/845.0efa10a0.chunk.js": "/Memory-Game/static/js/845.0efa10a0.chunk.js",
-    "static/media/queen_of_spades2.png": "/Memory-Game/static/media/queen_of_spades2.36d6392b950aaca6cf86.png",
-    "static/media/queen_of_clubs2.png": "/Memory-Game/static/media/queen_of_clubs2.fc9f20de60989e32aa14.png",
-    "static/media/king_of_hearts2.png": "/Memory-Game/static/media/king_of_hearts2.ee54ffa4571a89d31db7.png",
-    "static/media/jack_of_hearts2.png": "/Memory-Game/static/media/jack_of_hearts2.3c0219cf167f895cc007.png",
-    "static/media/jack_of_diamonds2.png": "/Memory-Game/static/media/jack_of_diamonds2.221a1446843bf201c91b.png",
-    "static/media/king_of_diamonds2.png": "/Memory-Game/static/media/king_of_diamonds2.c356047f2f9e12e5c65a.png",
-    "static/media/queen_of_hearts2.png": "/Memory-Game/static/media/queen_of_hearts2.92bc3b619e909683a5c9.png",
-    "static/media/jack_of_spades2.png": "/Memory-Game/static/media/jack_of_spades2.a45b503552981dab2ee7.png",
-    "static/media/king_of_clubs2.png": "/Memory-Game/static/media/king_of_clubs2.9e10e272d5b8ba50a224.png",
-    "static/media/jack_of_clubs2.png": "/Memory-Game/static/media/jack_of_clubs2.36a8a74da28cf677963f.png",
-    "static/media/queen_of_diamonds2.png": "/Memory-Game/static/media/queen_of_diamonds2.8ec65f709bdb50879592.png",
-    "static/media/king_of_spades2.png": "/Memory-Game/static/media/king_of_spades2.f779d478b807f69b3855.png",
-    "static/media/game-over.mp3": "/Memory-Game/static/media/game-over.7b134939934153701fac.mp3",
-    "static/media/correct.mp3": "/Memory-Game/static/media/correct.2944938830ac5d97fe17.mp3",
-    "index.html": "/Memory-Game/index.html",
-    "main.ccf97c94.css.map": "/Memory-Game/static/css/main.ccf97c94.css.map",
-    "main.ff2a20b8.js.map": "/Memory-Game/static/js/main.ff2a20b8.js.map",
-    "845.0efa10a0.chunk.js.map": "/Memory-Game/static/js/845.0efa10a0.chunk.js.map"
+    "main.css": "/memory-game/static/css/main.ccf97c94.css",
+    "main.js": "/memory-game/static/js/main.781f53d3.js",
+    "static/js/845.0efa10a0.chunk.js": "/memory-game/static/js/845.0efa10a0.chunk.js",
+    "static/media/queen_of_spades2.png": "/memory-game/static/media/queen_of_spades2.36d6392b950aaca6cf86.png",
+    "static/media/queen_of_clubs2.png": "/memory-game/static/media/queen_of_clubs2.fc9f20de60989e32aa14.png",
+    "static/media/king_of_hearts2.png": "/memory-game/static/media/king_of_hearts2.ee54ffa4571a89d31db7.png",
+    "static/media/jack_of_hearts2.png": "/memory-game/static/media/jack_of_hearts2.3c0219cf167f895cc007.png",
+    "static/media/jack_of_diamonds2.png": "/memory-game/static/media/jack_of_diamonds2.221a1446843bf201c91b.png",
+    "static/media/king_of_diamonds2.png": "/memory-game/static/media/king_of_diamonds2.c356047f2f9e12e5c65a.png",
+    "static/media/queen_of_hearts2.png": "/memory-game/static/media/queen_of_hearts2.92bc3b619e909683a5c9.png",
+    "static/media/jack_of_spades2.png": "/memory-game/static/media/jack_of_spades2.a45b503552981dab2ee7.png",
+    "static/media/king_of_clubs2.png": "/memory-game/static/media/king_of_clubs2.9e10e272d5b8ba50a224.png",
+    "static/media/jack_of_clubs2.png": "/memory-game/static/media/jack_of_clubs2.36a8a74da28cf677963f.png",
+    "static/media/queen_of_diamonds2.png": "/memory-game/static/media/queen_of_diamonds2.8ec65f709bdb50879592.png",
+    "static/media/king_of_spades2.png": "/memory-game/static/media/king_of_spades2.f779d478b807f69b3855.png",
+    "static/media/game-over.mp3": "/memory-game/static/media/game-over.7b134939934153701fac.mp3",
+    "static/media/correct.mp3": "/memory-game/static/media/correct.2944938830ac5d97fe17.mp3",
+    "index.html": "/memory-game/index.html",
+    "main.ccf97c94.css.map": "/memory-game/static/css/main.ccf97c94.css.map",
+    "main.781f53d3.js.map": "/memory-game/static/js/main.781f53d3.js.map",
+    "845.0efa10a0.chunk.js.map": "/memory-game/static/js/845.0efa10a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccf97c94.css",
-    "static/js/main.ff2a20b8.js"
+    "static/js/main.781f53d3.js"
   ]
 }
